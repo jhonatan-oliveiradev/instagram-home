@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram | Entre ou cadastre-se.</title>
-    <link rel="shortcut icon" href="img/favico.png" type="image/x-icon">
-</head>
-<body>
-    
-</body>
+    <link rel="shortcut icon" href="img/favico.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="main-container">
+        <!-- banner lateral -->
+        <div id="banner-container">
+          <img
+            src="img/imagem_cel_exterior.png"
+            alt="Crie uma conta no Instagram"
+          />
+        </div>
+        <!-- formulário de login -->
+        <div id="form-container">
+          <div id="form-box">
+            <!-- logotipo -->
+            <img id="logo-insta" src="img/logo_instagram.png" alt="Instagram" />
+            <!-- formulário -->
+            <form id="login-form">
+              <input
+                type="text"
+                name="username"
+                placeholder="Telefone, nome de usuário ou e-mail"
+              />
+              <input type="password" name="password" placeholder="Senha" />
+              <input type="submit" value="Entrar" />
+            </form>
+            <!-- separador -->
+            <div class="separator">
+              <div class="line"></div>
+              <span>OU</span>
+            </div>
+            <!-- links alternativos -->
+            <div id="other-links">
+              <div id="facebook-login">
+                <a href="#">
+                  <img src="img/logo_facebook.svg" alt="Facebook" />
+                  <span>Entrar com Facebook</span>
+                </a>
+              </div>
+              <div id="forgot-pass">
+                <a href="#">Esqueceu a senha?</a>
+              </div>
+            </div>
+          </div>
+          <div id="register-container">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+          </div>
+          <div id="get-app-container">
+            <p>Obtenha o aplicativo.</p>
+            <a href="#">
+              <img src="img/botao_apple.png" alt="Apple Store" />
+              <img src="img/botao_google_play.png" alt="Google Play Sotre" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
