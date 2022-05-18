@@ -99,3 +99,46 @@
   font-size: 14px;
   font-weight: bold;
 }
+
+/* facebook login */
+#facebook-login {
+  margin-bottom: 25px;
+}
+
+#facebook-login a {
+  text-decoration: none;
+  color: #00a1e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#facebook-login a:hover {
+  color: #3c5a99;
+}
+
+#facebook-login img {
+  width: 16px;
+  height: 16px;
+  margin-right: 18px;
+}
+
+#facebook-login span {
+  font-size: 13px;
+  margin-top: 1px;
+}
+
+/* esqueceu a senha */
+#forgot-pass {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+#forgot-pass a {
+  text-decoration: none;
+  color: #31bffc;
+}
+
+#forgot-pass a:hover {
+  color: #3c5a99;
+}
