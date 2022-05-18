@@ -192,3 +192,63 @@
 }
 
 /* rodapé */
+footer {
+  text-align: left;
+  width: 1000px;
+  margin: 50px auto;
+}
+
+footer #footer-links {
+  list-style: none;
+}
+
+footer #footer-links li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+footer #footer-links a {
+  text-decoration: none;
+  color: #31bffc;
+  transition: 0.3s ease-in-out;
+}
+
+footer #footer-links a:hover {
+  color: #3c5a99;
+}
+
+#copyright {
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* mobile adjusts */
+@media (max-width: 450px) {
+  #banner-container {
+    display: none;
+  }
+
+  #main-container,
+  #form-box {
+    margin-top: 0;
+  }
+
+  #main-container,
+  #form-box,
+  #register-container,
+  #get-app-container {
+    width: 100%;
+    border: none;
+  }
+
+  footer {
+    width: 90%;
+    text-align: center;
+  }
+
+  #footer-links li {
+    margin-bottom: 10px;
+  }
+}
