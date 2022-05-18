@@ -77,3 +77,25 @@
 }
 
 /* separador */
+.separator {
+  position: relative;
+}
+
+.separator .line {
+  border-top: 1px solid #dbdbdb;
+  width: 268px;
+  margin: 25px auto 35px auto;
+}
+
+.separator span {
+  position: absolute;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #bbb;
+  width: 50px;
+  top: -10px;
+  left: 50%;
+  margin-left: -25px;
+  font-size: 14px;
+  font-weight: bold;
+}
