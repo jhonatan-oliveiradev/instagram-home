@@ -34,7 +34,8 @@
 }
 
 /* form login */
-#form-box {
+#form-box,
+#register-container {
   background-color: #fff;
   border: 1px solid #dbdbdb;
   width: 350px;
@@ -74,6 +75,13 @@
   padding: 0;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: #3c5a99;
+  color: #fff;
+  border-color: #3c5a99;
 }
 
 /* separador */
@@ -142,3 +150,45 @@
 #forgot-pass a:hover {
   color: #3c5a99;
 }
+
+/* cadastro */
+#register-container {
+  margin-top: 10px;
+  padding: 25px;
+}
+
+#register-container p {
+  font-size: 14px;
+  color: #262626;
+}
+
+#register-container a {
+  color: #31bffc;
+  text-decoration: none;
+}
+
+#register-container a:hover {
+  color: #3c5a99;
+}
+
+/* obter app */
+#get-app-container {
+  text-align: center;
+  width: 350px;
+}
+
+#get-app-container p {
+  font-size: 13px;
+  margin: 20px 0;
+}
+
+#get-app-container a {
+  text-decoration: none;
+}
+
+#get-app-container img {
+  width: 136px;
+  height: 40px;
+}
+
+/* rodapé */
